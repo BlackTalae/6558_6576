@@ -1,0 +1,11 @@
+/home/talae-ubantu/6558_6576/build/turtlesim_plus/CMakeFiles/uninstall.dir
+/home/talae-ubantu/6558_6576/build/turtlesim_plus/CMakeFiles/turtlesim_plus_uninstall.dir
+/home/talae-ubantu/6558_6576/build/turtlesim_plus/CMakeFiles/ament_cmake_python_copy_turtlesim_plus.dir
+/home/talae-ubantu/6558_6576/build/turtlesim_plus/CMakeFiles/ament_cmake_python_build_turtlesim_plus_egg.dir
+/home/talae-ubantu/6558_6576/build/turtlesim_plus/CMakeFiles/test.dir
+/home/talae-ubantu/6558_6576/build/turtlesim_plus/CMakeFiles/edit_cache.dir
+/home/talae-ubantu/6558_6576/build/turtlesim_plus/CMakeFiles/rebuild_cache.dir
+/home/talae-ubantu/6558_6576/build/turtlesim_plus/CMakeFiles/list_install_components.dir
+/home/talae-ubantu/6558_6576/build/turtlesim_plus/CMakeFiles/install.dir
+/home/talae-ubantu/6558_6576/build/turtlesim_plus/CMakeFiles/install/local.dir
+/home/talae-ubantu/6558_6576/build/turtlesim_plus/CMakeFiles/install/strip.dir
