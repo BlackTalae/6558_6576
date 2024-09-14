@@ -1,0 +1,4 @@
+source;share/funny_turtleplus/local_setup.bash
+source;share/funny_turtleplus/local_setup.dsv
+source;share/funny_turtleplus/local_setup.sh
+source;share/funny_turtleplus/local_setup.zsh

@@ -1,0 +1,8 @@
+source;share/funny_turtleplus/hook/cmake_prefix_path.ps1
+source;share/funny_turtleplus/hook/cmake_prefix_path.dsv
+source;share/funny_turtleplus/hook/cmake_prefix_path.sh
+source;share/funny_turtleplus/local_setup.bash
+source;share/funny_turtleplus/local_setup.dsv
+source;share/funny_turtleplus/local_setup.ps1
+source;share/funny_turtleplus/local_setup.sh
+source;share/funny_turtleplus/local_setup.zsh

@@ -1,0 +1,7 @@
+setup.py
+funny_turtleplus/__init__.py
+funny_turtleplus/dummy_module.py
+funny_turtleplus.egg-info/PKG-INFO
+funny_turtleplus.egg-info/SOURCES.txt
+funny_turtleplus.egg-info/dependency_links.txt
+funny_turtleplus.egg-info/top_level.txt
