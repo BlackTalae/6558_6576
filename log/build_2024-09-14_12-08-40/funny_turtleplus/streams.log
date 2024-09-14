@@ -1,0 +1,45 @@
+[0.009s] Invoking command in '/home/charlottexiii/6558_6576/build/funny_turtleplus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charlottexiii/robdev_ws/install/launch_testing_examples:/home/charlottexiii/robdev_ws/install/examples_rclpy_pointcloud_publisher:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_subscriber:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_service:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_publisher:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_client:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_action_server:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_action_client:/home/charlottexiii/robdev_ws/install/examples_rclpy_guard_conditions:/home/charlottexiii/robdev_ws/install/examples_rclpy_executors:/home/charlottexiii/ros2Test_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/charlottexiii/6558_6576/build/funny_turtleplus -- -j16 -l16
+[0.072s] [100%] Built target cpp_node_test
+[0.079s] [100%] Built target ament_cmake_python_copy_funny_turtleplus
+[0.319s] running egg_info
+[0.319s] writing funny_turtleplus.egg-info/PKG-INFO
+[0.319s] writing dependency_links to funny_turtleplus.egg-info/dependency_links.txt
+[0.319s] writing top-level names to funny_turtleplus.egg-info/top_level.txt
+[0.321s] reading manifest file 'funny_turtleplus.egg-info/SOURCES.txt'
+[0.321s] writing manifest file 'funny_turtleplus.egg-info/SOURCES.txt'
+[0.374s] [100%] Built target ament_cmake_python_build_funny_turtleplus_egg
+[0.393s] Invoked command in '/home/charlottexiii/6558_6576/build/funny_turtleplus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charlottexiii/robdev_ws/install/launch_testing_examples:/home/charlottexiii/robdev_ws/install/examples_rclpy_pointcloud_publisher:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_subscriber:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_service:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_publisher:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_client:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_action_server:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_action_client:/home/charlottexiii/robdev_ws/install/examples_rclpy_guard_conditions:/home/charlottexiii/robdev_ws/install/examples_rclpy_executors:/home/charlottexiii/ros2Test_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/charlottexiii/6558_6576/build/funny_turtleplus -- -j16 -l16
+[0.450s] Invoking command in '/home/charlottexiii/6558_6576/build/funny_turtleplus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charlottexiii/robdev_ws/install/launch_testing_examples:/home/charlottexiii/robdev_ws/install/examples_rclpy_pointcloud_publisher:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_subscriber:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_service:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_publisher:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_client:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_action_server:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_action_client:/home/charlottexiii/robdev_ws/install/examples_rclpy_guard_conditions:/home/charlottexiii/robdev_ws/install/examples_rclpy_executors:/home/charlottexiii/ros2Test_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/charlottexiii/6558_6576/build/funny_turtleplus
+[0.465s] -- Install configuration: ""
+[0.465s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/environment/pythonpath.sh
+[0.466s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/environment/pythonpath.dsv
+[0.466s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus-0.0.0-py3.10.egg-info
+[0.466s] -- Installing: /home/charlottexiii/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.466s] -- Installing: /home/charlottexiii/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus-0.0.0-py3.10.egg-info/top_level.txt
+[0.466s] -- Installing: /home/charlottexiii/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.466s] -- Installing: /home/charlottexiii/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus-0.0.0-py3.10.egg-info/PKG-INFO
+[0.466s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus
+[0.466s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus/dummy_module.py
+[0.466s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus/__init__.py
+[0.504s] Listing '/home/charlottexiii/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus'...
+[0.507s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/dummy_script.py
+[0.507s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/Test_Key_Tele.py
+[0.507s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/First_Trutle.py
+[0.507s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/cpp_node_test
+[0.507s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus
+[0.507s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/ament_index/resource_index/package_run_dependencies/funny_turtleplus
+[0.507s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/ament_index/resource_index/parent_prefix_path/funny_turtleplus
+[0.507s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/environment/ament_prefix_path.sh
+[0.507s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/environment/ament_prefix_path.dsv
+[0.507s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/environment/path.sh
+[0.507s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/environment/path.dsv
+[0.507s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/local_setup.bash
+[0.507s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/local_setup.sh
+[0.507s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/local_setup.zsh
+[0.508s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/local_setup.dsv
+[0.508s] -- Installing: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/package.dsv
+[0.508s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/ament_index/resource_index/packages/funny_turtleplus
+[0.508s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/cmake/funny_turtleplusConfig.cmake
+[0.508s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/cmake/funny_turtleplusConfig-version.cmake
+[0.508s] -- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/package.xml
+[0.511s] Invoked command in '/home/charlottexiii/6558_6576/build/funny_turtleplus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charlottexiii/robdev_ws/install/launch_testing_examples:/home/charlottexiii/robdev_ws/install/examples_rclpy_pointcloud_publisher:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_subscriber:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_service:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_publisher:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_client:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_action_server:/home/charlottexiii/robdev_ws/install/examples_rclpy_minimal_action_client:/home/charlottexiii/robdev_ws/install/examples_rclpy_guard_conditions:/home/charlottexiii/robdev_ws/install/examples_rclpy_executors:/home/charlottexiii/ros2Test_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/charlottexiii/6558_6576/build/funny_turtleplus

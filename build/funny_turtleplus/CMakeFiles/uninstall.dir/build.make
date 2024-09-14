@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/talae-ubantu/6558_6576/src/funny_turtleplus
+CMAKE_SOURCE_DIR = /home/charlottexiii/6558_6576/src/funny_turtleplus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/talae-ubantu/6558_6576/build/funny_turtleplus
+CMAKE_BINARY_DIR = /home/charlottexiii/6558_6576/build/funny_turtleplus
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/talae-ubantu/6558_6576/build/funny_turtleplus && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/talae-ubantu/6558_6576/src/funny_turtleplus /home/talae-ubantu/6558_6576/src/funny_turtleplus /home/talae-ubantu/6558_6576/build/funny_turtleplus /home/talae-ubantu/6558_6576/build/funny_turtleplus /home/talae-ubantu/6558_6576/build/funny_turtleplus/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/charlottexiii/6558_6576/build/funny_turtleplus && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/charlottexiii/6558_6576/src/funny_turtleplus /home/charlottexiii/6558_6576/src/funny_turtleplus /home/charlottexiii/6558_6576/build/funny_turtleplus /home/charlottexiii/6558_6576/build/funny_turtleplus /home/charlottexiii/6558_6576/build/funny_turtleplus/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

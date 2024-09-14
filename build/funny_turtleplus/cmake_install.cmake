@@ -1,8 +1,8 @@
-# Install script for directory: /home/talae-ubantu/6558_6576/src/funny_turtleplus
+# Install script for directory: /home/charlottexiii/6558_6576/src/funny_turtleplus
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/talae-ubantu/6558_6576/install/funny_turtleplus")
+  set(CMAKE_INSTALL_PREFIX "/home/charlottexiii/6558_6576/install/funny_turtleplus")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,31 +43,35 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/funny_turtleplus/environment" TYPE FILE FILES "/home/talae-ubantu/6558_6576/build/funny_turtleplus/ament_cmake_environment_hooks/pythonpath.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/funny_turtleplus/environment" TYPE FILE FILES "/home/charlottexiii/6558_6576/build/funny_turtleplus/ament_cmake_environment_hooks/pythonpath.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/funny_turtleplus/environment" TYPE FILE FILES "/home/talae-ubantu/6558_6576/build/funny_turtleplus/ament_cmake_environment_hooks/pythonpath.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/funny_turtleplus/environment" TYPE FILE FILES "/home/charlottexiii/6558_6576/build/funny_turtleplus/ament_cmake_environment_hooks/pythonpath.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/funny_turtleplus-0.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/home/talae-ubantu/6558_6576/build/funny_turtleplus/ament_cmake_python/funny_turtleplus/funny_turtleplus.egg-info/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/funny_turtleplus-0.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/home/charlottexiii/6558_6576/build/funny_turtleplus/ament_cmake_python/funny_turtleplus/funny_turtleplus.egg-info/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/funny_turtleplus" TYPE DIRECTORY FILES "/home/talae-ubantu/6558_6576/src/funny_turtleplus/funny_turtleplus/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/funny_turtleplus" TYPE DIRECTORY FILES "/home/charlottexiii/6558_6576/src/funny_turtleplus/funny_turtleplus/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
-        "/home/talae-ubantu/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus"
+        "/home/charlottexiii/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus"
       )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/funny_turtleplus" TYPE PROGRAM FILES "/home/talae-ubantu/6558_6576/src/funny_turtleplus/scripts/dummy_script.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/funny_turtleplus" TYPE PROGRAM FILES
+    "/home/charlottexiii/6558_6576/src/funny_turtleplus/scripts/dummy_script.py"
+    "/home/charlottexiii/6558_6576/src/funny_turtleplus/scripts/Test_Key_Tele.py"
+    "/home/charlottexiii/6558_6576/src/funny_turtleplus/scripts/First_Trutle.py"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -77,7 +81,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/funny_turtleplus/cpp_node_test"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/funny_turtleplus" TYPE EXECUTABLE FILES "/home/talae-ubantu/6558_6576/build/funny_turtleplus/cpp_node_test")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/funny_turtleplus" TYPE EXECUTABLE FILES "/home/charlottexiii/6558_6576/build/funny_turtleplus/cpp_node_test")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/funny_turtleplus/cpp_node_test" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/funny_turtleplus/cpp_node_test")
     file(RPATH_CHANGE
@@ -95,11 +99,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/talae-ubantu/6558_6576/build/funny_turtleplus/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/funny_turtleplus")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/charlottexiii/6558_6576/build/funny_turtleplus/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/funny_turtleplus")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/talae-ubantu/6558_6576/build/funny_turtleplus/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/funny_turtleplus")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/charlottexiii/6558_6576/build/funny_turtleplus/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/funny_turtleplus")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -107,7 +111,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/funny_turtleplus/environment" TYPE FILE FILES "/home/talae-ubantu/6558_6576/build/funny_turtleplus/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/funny_turtleplus/environment" TYPE FILE FILES "/home/charlottexiii/6558_6576/build/funny_turtleplus/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -115,42 +119,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/funny_turtleplus/environment" TYPE FILE FILES "/home/talae-ubantu/6558_6576/build/funny_turtleplus/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/funny_turtleplus/environment" TYPE FILE FILES "/home/charlottexiii/6558_6576/build/funny_turtleplus/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/funny_turtleplus" TYPE FILE FILES "/home/talae-ubantu/6558_6576/build/funny_turtleplus/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/funny_turtleplus" TYPE FILE FILES "/home/charlottexiii/6558_6576/build/funny_turtleplus/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/funny_turtleplus" TYPE FILE FILES "/home/talae-ubantu/6558_6576/build/funny_turtleplus/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/funny_turtleplus" TYPE FILE FILES "/home/charlottexiii/6558_6576/build/funny_turtleplus/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/funny_turtleplus" TYPE FILE FILES "/home/talae-ubantu/6558_6576/build/funny_turtleplus/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/funny_turtleplus" TYPE FILE FILES "/home/charlottexiii/6558_6576/build/funny_turtleplus/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/funny_turtleplus" TYPE FILE FILES "/home/talae-ubantu/6558_6576/build/funny_turtleplus/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/funny_turtleplus" TYPE FILE FILES "/home/charlottexiii/6558_6576/build/funny_turtleplus/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/funny_turtleplus" TYPE FILE FILES "/home/talae-ubantu/6558_6576/build/funny_turtleplus/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/funny_turtleplus" TYPE FILE FILES "/home/charlottexiii/6558_6576/build/funny_turtleplus/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/talae-ubantu/6558_6576/build/funny_turtleplus/ament_cmake_index/share/ament_index/resource_index/packages/funny_turtleplus")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/charlottexiii/6558_6576/build/funny_turtleplus/ament_cmake_index/share/ament_index/resource_index/packages/funny_turtleplus")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/funny_turtleplus/cmake" TYPE FILE FILES
-    "/home/talae-ubantu/6558_6576/build/funny_turtleplus/ament_cmake_core/funny_turtleplusConfig.cmake"
-    "/home/talae-ubantu/6558_6576/build/funny_turtleplus/ament_cmake_core/funny_turtleplusConfig-version.cmake"
+    "/home/charlottexiii/6558_6576/build/funny_turtleplus/ament_cmake_core/funny_turtleplusConfig.cmake"
+    "/home/charlottexiii/6558_6576/build/funny_turtleplus/ament_cmake_core/funny_turtleplusConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/funny_turtleplus" TYPE FILE FILES "/home/talae-ubantu/6558_6576/src/funny_turtleplus/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/funny_turtleplus" TYPE FILE FILES "/home/charlottexiii/6558_6576/src/funny_turtleplus/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -161,5 +165,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/talae-ubantu/6558_6576/build/funny_turtleplus/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/charlottexiii/6558_6576/build/funny_turtleplus/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
