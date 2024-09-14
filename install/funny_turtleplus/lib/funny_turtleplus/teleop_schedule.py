@@ -22,7 +22,7 @@ class TeleopScheduleNode(Node):
         self.clear_service = self.create_service(ClearPath, '/clear_path', self.clear_service_callback)
 
         self.spawn_pizza_client = self.create_client(GivePosition, '/spawn_pizza')
-        self.declare_parameter('pizza_number', 5)
+        self.declare_parameter('pizza_number', 500)
         self.pizza = self.get_parameter('pizza_number').value
         self.add_on_set_parameters_callback(self.parameter_update_callback)
         self.eat_pizza_client = self.create_client(Empty, 'eat')

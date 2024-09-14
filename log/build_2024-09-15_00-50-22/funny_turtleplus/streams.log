@@ -1,0 +1,48 @@
+[0.080s] Invoking command in '/home/talae-ubantu/6558_6576/build/funny_turtleplus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/talae-ubantu/6558_6576/build/funny_turtleplus -- -j4 -l4
+[0.494s] [100%] Built target cpp_node_test
+[0.614s] [100%] Built target ament_cmake_python_copy_funny_turtleplus
+[3.038s] running egg_info
+[3.046s] writing funny_turtleplus.egg-info/PKG-INFO
+[3.047s] writing dependency_links to funny_turtleplus.egg-info/dependency_links.txt
+[3.052s] writing top-level names to funny_turtleplus.egg-info/top_level.txt
+[3.057s] reading manifest file 'funny_turtleplus.egg-info/SOURCES.txt'
+[3.062s] writing manifest file 'funny_turtleplus.egg-info/SOURCES.txt'
+[3.197s] [100%] Built target ament_cmake_python_build_funny_turtleplus_egg
+[3.258s] Invoked command in '/home/talae-ubantu/6558_6576/build/funny_turtleplus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/talae-ubantu/6558_6576/build/funny_turtleplus -- -j4 -l4
+[3.448s] Invoking command in '/home/talae-ubantu/6558_6576/build/funny_turtleplus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/talae-ubantu/6558_6576/build/funny_turtleplus
+[3.477s] -- Install configuration: ""
+[3.477s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/funny_turtleplus/environment/pythonpath.sh
+[3.477s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/funny_turtleplus/environment/pythonpath.dsv
+[3.481s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus-0.0.0-py3.10.egg-info
+[3.481s] -- Installing: /home/talae-ubantu/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus-0.0.0-py3.10.egg-info/PKG-INFO
+[3.486s] -- Installing: /home/talae-ubantu/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus-0.0.0-py3.10.egg-info/top_level.txt
+[3.486s] -- Installing: /home/talae-ubantu/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.486s] -- Installing: /home/talae-ubantu/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.486s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus
+[3.487s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus/__init__.py
+[3.487s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus/dummy_module.py
+[3.663s] Listing '/home/talae-ubantu/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus'...
+[3.691s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/dummy_script.py
+[3.691s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/teleop_key.py
+[3.691s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/teleop_schedule.py
+[3.702s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/controller.py
+[3.704s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/copy_schedule.py
+[3.704s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/cpp_node_test
+[3.718s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/funny_turtleplus/launch
+[3.720s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/funny_turtleplus/launch/teleop_turtle.launch.py
+[3.724s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/ament_index/resource_index/package_run_dependencies/funny_turtleplus
+[3.726s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/ament_index/resource_index/parent_prefix_path/funny_turtleplus
+[3.730s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/funny_turtleplus/environment/ament_prefix_path.sh
+[3.737s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/funny_turtleplus/environment/ament_prefix_path.dsv
+[3.737s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/funny_turtleplus/environment/path.sh
+[3.738s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/funny_turtleplus/environment/path.dsv
+[3.738s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/funny_turtleplus/local_setup.bash
+[3.738s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/funny_turtleplus/local_setup.sh
+[3.738s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/funny_turtleplus/local_setup.zsh
+[3.738s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/funny_turtleplus/local_setup.dsv
+[3.738s] -- Installing: /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/funny_turtleplus/package.dsv
+[3.738s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/ament_index/resource_index/packages/funny_turtleplus
+[3.739s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/funny_turtleplus/cmake/funny_turtleplusConfig.cmake
+[3.739s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/funny_turtleplus/cmake/funny_turtleplusConfig-version.cmake
+[3.739s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/funny_turtleplus/package.xml
+[3.747s] Invoked command in '/home/talae-ubantu/6558_6576/build/funny_turtleplus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/talae-ubantu/6558_6576/build/funny_turtleplus

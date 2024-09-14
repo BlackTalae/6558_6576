@@ -1,0 +1,64 @@
+[0.033s] Invoking command in '/home/talae-ubantu/6558_6576/build/turtlesim_plus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/talae-ubantu/6558_6576/build/turtlesim_plus -- -j4 -l4
+[0.279s] Built target ament_cmake_python_copy_turtlesim_plus
+[2.094s] running egg_info
+[2.096s] writing turtlesim_plus.egg-info/PKG-INFO
+[2.099s] writing dependency_links to turtlesim_plus.egg-info/dependency_links.txt
+[2.099s] writing top-level names to turtlesim_plus.egg-info/top_level.txt
+[2.109s] reading manifest file 'turtlesim_plus.egg-info/SOURCES.txt'
+[2.110s] writing manifest file 'turtlesim_plus.egg-info/SOURCES.txt'
+[2.311s] Built target ament_cmake_python_build_turtlesim_plus_egg
+[2.402s] Invoked command in '/home/talae-ubantu/6558_6576/build/turtlesim_plus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/talae-ubantu/6558_6576/build/turtlesim_plus -- -j4 -l4
+[2.656s] Invoking command in '/home/talae-ubantu/6558_6576/build/turtlesim_plus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/talae-ubantu/6558_6576/build/turtlesim_plus
+[2.690s] -- Install configuration: ""
+[2.692s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/share/turtlesim_plus/environment/pythonpath.sh
+[2.692s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/share/turtlesim_plus/environment/pythonpath.dsv
+[2.692s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus-1.0.0-py3.10.egg-info
+[2.692s] -- Installing: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus-1.0.0-py3.10.egg-info/PKG-INFO
+[2.693s] -- Installing: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus-1.0.0-py3.10.egg-info/top_level.txt
+[2.696s] -- Installing: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus-1.0.0-py3.10.egg-info/SOURCES.txt
+[2.697s] -- Installing: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus-1.0.0-py3.10.egg-info/dependency_links.txt
+[2.702s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus
+[2.703s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/__init__.py
+[2.703s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image
+[2.704s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/object
+[2.704s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/object/pizza.png
+[2.705s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/object/parcel.png
+[2.705s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/map
+[2.705s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/map/map.png
+[2.706s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle
+[2.706s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle/bouncy.png
+[2.706s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle/foxy.png
+[2.707s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle/humble.png
+[2.708s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle/galactic.png
+[2.708s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle/dashing.png
+[2.708s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle/ardent.png
+[2.708s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle/rolling.png
+[2.708s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle/crystal.png
+[2.708s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle/otto.png
+[2.709s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle/eloquent.png
+[2.710s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/ros2_plugins.py
+[2.710s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/entity.py
+[3.014s] Listing '/home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus'...
+[3.015s] Listing '/home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image'...
+[3.015s] Listing '/home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/map'...
+[3.016s] Listing '/home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/object'...
+[3.016s] Listing '/home/talae-ubantu/6558_6576/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle'...
+[3.039s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/lib/turtlesim_plus/turtlesim_plus_node.py
+[3.040s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/lib/turtlesim_plus/pizza_on_click.py
+[3.040s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/share/turtlesim_plus
+[3.040s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/share/ament_index/resource_index/package_run_dependencies/turtlesim_plus
+[3.041s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/share/ament_index/resource_index/parent_prefix_path/turtlesim_plus
+[3.044s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/share/turtlesim_plus/environment/ament_prefix_path.sh
+[3.045s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/share/turtlesim_plus/environment/ament_prefix_path.dsv
+[3.046s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/share/turtlesim_plus/environment/path.sh
+[3.052s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/share/turtlesim_plus/environment/path.dsv
+[3.052s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/share/turtlesim_plus/local_setup.bash
+[3.055s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/share/turtlesim_plus/local_setup.sh
+[3.055s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/share/turtlesim_plus/local_setup.zsh
+[3.056s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/share/turtlesim_plus/local_setup.dsv
+[3.058s] -- Installing: /home/talae-ubantu/6558_6576/install/turtlesim_plus/share/turtlesim_plus/package.dsv
+[3.058s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/share/ament_index/resource_index/packages/turtlesim_plus
+[3.059s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/share/turtlesim_plus/cmake/turtlesim_plusConfig.cmake
+[3.059s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/share/turtlesim_plus/cmake/turtlesim_plusConfig-version.cmake
+[3.059s] -- Up-to-date: /home/talae-ubantu/6558_6576/install/turtlesim_plus/share/turtlesim_plus/package.xml
+[3.060s] Invoked command in '/home/talae-ubantu/6558_6576/build/turtlesim_plus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/talae-ubantu/6558_6576/build/turtlesim_plus
