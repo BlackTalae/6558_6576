@@ -53,7 +53,6 @@ class TeleopNode(Node):
     def __init__(self):
         super().__init__('teleop_keyboard')
         qos = QoSProfile(depth=10)
-        #a
         self.pub = self.create_publisher(Twist, '/turtle1/cmd_vel', qos)
 
         self.create_subscription(Pose, "pose", self.pose_callback , 10)
