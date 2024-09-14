@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from teleop_interfaces/srv/MakePath.srv
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Empty.idl"
+
+module teleop_interfaces {
+  module srv {
+    struct MakePath_Request {
+      std_msgs::msg::Empty request;
+    };
+    struct MakePath_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

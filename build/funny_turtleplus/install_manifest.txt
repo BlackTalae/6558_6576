@@ -7,6 +7,10 @@
 /home/talae-ubantu/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus/__init__.py
 /home/talae-ubantu/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus/dummy_module.py
 /home/talae-ubantu/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/dummy_script.py
+/home/talae-ubantu/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/teleop_key.py
+/home/talae-ubantu/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/teleop_schedule.py
+/home/talae-ubantu/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/controller.py
+/home/talae-ubantu/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/copy_schedule.py
 /home/talae-ubantu/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/cpp_node_test
 /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/ament_index/resource_index/package_run_dependencies/funny_turtleplus
 /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/ament_index/resource_index/parent_prefix_path/funny_turtleplus

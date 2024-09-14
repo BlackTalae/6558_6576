@@ -1,0 +1,28 @@
+copy_schedule_node:
+  ros__parameters:
+    turtle1_target_x:
+    - 6.715000152587891
+    - 8.060056686401367
+    - 6.533112525939941
+    turtle1_target_y:
+    - 5.440000057220459
+    - 7.304520130157471
+    - 9.158835411071777
+    turtle2_target_x:
+    - 0.0
+    - 0.0
+    turtle2_target_y:
+    - 0.0
+    - 0.0
+    turtle3_target_x:
+    - 0.0
+    - 0.0
+    turtle3_target_y:
+    - 0.0
+    - 0.0
+    turtle4_target_x:
+    - 0.0
+    - 0.0
+    turtle4_target_y:
+    - 0.0
+    - 0.0

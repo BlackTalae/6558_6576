@@ -28,6 +28,10 @@ ament_python_install_package(${PROJECT_NAME})
 # Install Python executables
 install(PROGRAMS
   scripts/dummy_script.py
+  scripts/teleop_key.py
+  scripts/teleop_schedule.py
+  scripts/controller.py
+  scripts/copy_schedule.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

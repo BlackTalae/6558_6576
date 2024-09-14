@@ -67,7 +67,13 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/funny_turtleplus" TYPE PROGRAM FILES "/home/talae-ubantu/6558_6576/src/funny_turtleplus/scripts/dummy_script.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/funny_turtleplus" TYPE PROGRAM FILES
+    "/home/talae-ubantu/6558_6576/src/funny_turtleplus/scripts/dummy_script.py"
+    "/home/talae-ubantu/6558_6576/src/funny_turtleplus/scripts/teleop_key.py"
+    "/home/talae-ubantu/6558_6576/src/funny_turtleplus/scripts/teleop_schedule.py"
+    "/home/talae-ubantu/6558_6576/src/funny_turtleplus/scripts/controller.py"
+    "/home/talae-ubantu/6558_6576/src/funny_turtleplus/scripts/copy_schedule.py"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

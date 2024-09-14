@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from teleop_interfaces/srv/ClearPath.srv
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Empty.idl"
+
+module teleop_interfaces {
+  module srv {
+    struct ClearPath_Request {
+      std_msgs::msg::Empty clear;
+    };
+    struct ClearPath_Response {
+      boolean ack;
+    };
+  };
+};

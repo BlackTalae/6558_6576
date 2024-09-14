@@ -1,0 +1,4 @@
+/home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_adapter/teleop_interfaces:srv/MakePath.idl
+/home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_adapter/teleop_interfaces:srv/SavePath.idl
+/home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_adapter/teleop_interfaces:srv/ClearPath.idl
+/home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_adapter/teleop_interfaces:srv/GivePosition.idl
