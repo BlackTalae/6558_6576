@@ -78,10 +78,10 @@ CMakeFiles/teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/cl
 CMakeFiles/teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/clear_path__builder.hpp
 CMakeFiles/teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/clear_path__struct.hpp
 CMakeFiles/teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/clear_path__traits.hpp
-CMakeFiles/teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/give_position.hpp
-CMakeFiles/teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/give_position__builder.hpp
-CMakeFiles/teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/give_position__struct.hpp
-CMakeFiles/teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/give_position__traits.hpp
+CMakeFiles/teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/notify.hpp
+CMakeFiles/teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/notify__builder.hpp
+CMakeFiles/teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/notify__struct.hpp
+CMakeFiles/teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/notify__traits.hpp
 
 rosidl_generator_cpp/teleop_interfaces/srv/make_path.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/teleop_interfaces/srv/make_path.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -101,7 +101,7 @@ rosidl_generator_cpp/teleop_interfaces/srv/make_path.hpp: /opt/ros/humble/share/
 rosidl_generator_cpp/teleop_interfaces/srv/make_path.hpp: rosidl_adapter/teleop_interfaces/srv/MakePath.idl
 rosidl_generator_cpp/teleop_interfaces/srv/make_path.hpp: rosidl_adapter/teleop_interfaces/srv/SavePath.idl
 rosidl_generator_cpp/teleop_interfaces/srv/make_path.hpp: rosidl_adapter/teleop_interfaces/srv/ClearPath.idl
-rosidl_generator_cpp/teleop_interfaces/srv/make_path.hpp: rosidl_adapter/teleop_interfaces/srv/GivePosition.idl
+rosidl_generator_cpp/teleop_interfaces/srv/make_path.hpp: rosidl_adapter/teleop_interfaces/srv/Notify.idl
 rosidl_generator_cpp/teleop_interfaces/srv/make_path.hpp: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_cpp/teleop_interfaces/srv/make_path.hpp: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_cpp/teleop_interfaces/srv/make_path.hpp: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -170,34 +170,34 @@ rosidl_generator_cpp/teleop_interfaces/srv/detail/clear_path__struct.hpp: rosidl
 rosidl_generator_cpp/teleop_interfaces/srv/detail/clear_path__traits.hpp: rosidl_generator_cpp/teleop_interfaces/srv/make_path.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/teleop_interfaces/srv/detail/clear_path__traits.hpp
 
-rosidl_generator_cpp/teleop_interfaces/srv/give_position.hpp: rosidl_generator_cpp/teleop_interfaces/srv/make_path.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/teleop_interfaces/srv/give_position.hpp
+rosidl_generator_cpp/teleop_interfaces/srv/notify.hpp: rosidl_generator_cpp/teleop_interfaces/srv/make_path.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/teleop_interfaces/srv/notify.hpp
 
-rosidl_generator_cpp/teleop_interfaces/srv/detail/give_position__builder.hpp: rosidl_generator_cpp/teleop_interfaces/srv/make_path.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/teleop_interfaces/srv/detail/give_position__builder.hpp
+rosidl_generator_cpp/teleop_interfaces/srv/detail/notify__builder.hpp: rosidl_generator_cpp/teleop_interfaces/srv/make_path.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/teleop_interfaces/srv/detail/notify__builder.hpp
 
-rosidl_generator_cpp/teleop_interfaces/srv/detail/give_position__struct.hpp: rosidl_generator_cpp/teleop_interfaces/srv/make_path.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/teleop_interfaces/srv/detail/give_position__struct.hpp
+rosidl_generator_cpp/teleop_interfaces/srv/detail/notify__struct.hpp: rosidl_generator_cpp/teleop_interfaces/srv/make_path.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/teleop_interfaces/srv/detail/notify__struct.hpp
 
-rosidl_generator_cpp/teleop_interfaces/srv/detail/give_position__traits.hpp: rosidl_generator_cpp/teleop_interfaces/srv/make_path.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/teleop_interfaces/srv/detail/give_position__traits.hpp
+rosidl_generator_cpp/teleop_interfaces/srv/detail/notify__traits.hpp: rosidl_generator_cpp/teleop_interfaces/srv/make_path.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/teleop_interfaces/srv/detail/notify__traits.hpp
 
 teleop_interfaces__cpp: CMakeFiles/teleop_interfaces__cpp
 teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/clear_path.hpp
 teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/clear_path__builder.hpp
 teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/clear_path__struct.hpp
 teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/clear_path__traits.hpp
-teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/give_position__builder.hpp
-teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/give_position__struct.hpp
-teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/give_position__traits.hpp
 teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/make_path__builder.hpp
 teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/make_path__struct.hpp
 teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/make_path__traits.hpp
+teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/notify__builder.hpp
+teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/notify__struct.hpp
+teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/notify__traits.hpp
 teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/save_path__builder.hpp
 teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/save_path__struct.hpp
 teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/detail/save_path__traits.hpp
-teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/give_position.hpp
 teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/make_path.hpp
+teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/notify.hpp
 teleop_interfaces__cpp: rosidl_generator_cpp/teleop_interfaces/srv/save_path.hpp
 teleop_interfaces__cpp: CMakeFiles/teleop_interfaces__cpp.dir/build.make
 .PHONY : teleop_interfaces__cpp

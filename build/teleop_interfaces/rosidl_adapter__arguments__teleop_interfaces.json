@@ -4,6 +4,6 @@
     "/home/talae-ubantu/6558_6576/src/teleop_interfaces:srv/MakePath.srv",
     "/home/talae-ubantu/6558_6576/src/teleop_interfaces:srv/SavePath.srv",
     "/home/talae-ubantu/6558_6576/src/teleop_interfaces:srv/ClearPath.srv",
-    "/home/talae-ubantu/6558_6576/src/teleop_interfaces:srv/GivePosition.srv"
+    "/home/talae-ubantu/6558_6576/src/teleop_interfaces:srv/Notify.srv"
   ]
 }

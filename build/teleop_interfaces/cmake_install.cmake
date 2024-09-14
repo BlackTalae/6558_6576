@@ -368,7 +368,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_interfaces/srv" TYPE FILE FILES "/home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_adapter/teleop_interfaces/srv/GivePosition.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_interfaces/srv" TYPE FILE FILES "/home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_adapter/teleop_interfaces/srv/Notify.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -408,15 +408,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_interfaces/srv" TYPE FILE FILES "/home/talae-ubantu/6558_6576/src/teleop_interfaces/srv/GivePosition.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_interfaces/srv" TYPE FILE FILES "/home/talae-ubantu/6558_6576/src/teleop_interfaces/srv/Notify.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_interfaces/srv" TYPE FILE FILES "/home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_cmake/srv/GivePosition_Request.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_interfaces/srv" TYPE FILE FILES "/home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_cmake/srv/Notify_Request.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_interfaces/srv" TYPE FILE FILES "/home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_cmake/srv/GivePosition_Response.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_interfaces/srv" TYPE FILE FILES "/home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_cmake/srv/Notify_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

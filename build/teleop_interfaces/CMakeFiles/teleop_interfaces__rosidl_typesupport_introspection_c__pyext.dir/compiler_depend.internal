@@ -254,8 +254,7 @@ CMakeFiles/teleop_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosi
  /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_generator_c/teleop_interfaces/srv/detail/clear_path__type_support.h
  /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_generator_c/teleop_interfaces/srv/detail/clear_path__struct.h
  /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_generator_c/teleop_interfaces/srv/detail/clear_path__functions.h
- /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_generator_c/teleop_interfaces/srv/detail/give_position__type_support.h
- /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_generator_c/teleop_interfaces/srv/detail/give_position__struct.h
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64__struct.h
- /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.h
+ /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_generator_c/teleop_interfaces/srv/detail/notify__type_support.h
+ /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_generator_c/teleop_interfaces/srv/detail/notify__struct.h
+ /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.h
 

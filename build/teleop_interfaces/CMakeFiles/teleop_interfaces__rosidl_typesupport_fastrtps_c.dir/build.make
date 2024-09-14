@@ -80,7 +80,7 @@ rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/make_path__rosidl_typ
 rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/make_path__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/teleop_interfaces/srv/MakePath.idl
 rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/make_path__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/teleop_interfaces/srv/SavePath.idl
 rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/make_path__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/teleop_interfaces/srv/ClearPath.idl
-rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/make_path__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/teleop_interfaces/srv/GivePosition.idl
+rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/make_path__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/teleop_interfaces/srv/Notify.idl
 rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/make_path__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/make_path__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/make_path__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -131,11 +131,11 @@ rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/clear_path__rosidl_ty
 rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/clear_path__type_support_c.cpp: rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/make_path__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/clear_path__type_support_c.cpp
 
-rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/make_path__rosidl_typesupport_fastrtps_c.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__rosidl_typesupport_fastrtps_c.h
+rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/make_path__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__rosidl_typesupport_fastrtps_c.h
 
-rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__type_support_c.cpp: rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/make_path__rosidl_typesupport_fastrtps_c.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__type_support_c.cpp
+rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__type_support_c.cpp: rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/make_path__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__type_support_c.cpp
 
 CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/make_path__type_support_c.cpp.o: CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/make_path__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/make_path__type_support_c.cpp
@@ -179,26 +179,26 @@ CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesuppo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/clear_path__type_support_c.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/clear_path__type_support_c.cpp -o CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/clear_path__type_support_c.cpp.s
 
-CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__type_support_c.cpp.o: CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
-CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__type_support_c.cpp
-CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__type_support_c.cpp.o: CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/talae-ubantu/6558_6576/build/teleop_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__type_support_c.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__type_support_c.cpp.o -MF CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__type_support_c.cpp.o.d -o CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__type_support_c.cpp.o -c /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__type_support_c.cpp
+CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__type_support_c.cpp.o: CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__type_support_c.cpp
+CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__type_support_c.cpp.o: CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/talae-ubantu/6558_6576/build/teleop_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__type_support_c.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__type_support_c.cpp.o -MF CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__type_support_c.cpp.o.d -o CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__type_support_c.cpp.o -c /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__type_support_c.cpp
 
-CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__type_support_c.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__type_support_c.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__type_support_c.cpp > CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__type_support_c.cpp.i
+CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__type_support_c.cpp > CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__type_support_c.cpp.i
 
-CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__type_support_c.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__type_support_c.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__type_support_c.cpp -o CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__type_support_c.cpp.s
+CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__type_support_c.cpp -o CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__type_support_c.cpp.s
 
 # Object files for target teleop_interfaces__rosidl_typesupport_fastrtps_c
 teleop_interfaces__rosidl_typesupport_fastrtps_c_OBJECTS = \
 "CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/make_path__type_support_c.cpp.o" \
 "CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/save_path__type_support_c.cpp.o" \
 "CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/clear_path__type_support_c.cpp.o" \
-"CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__type_support_c.cpp.o"
+"CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__type_support_c.cpp.o"
 
 # External object files for target teleop_interfaces__rosidl_typesupport_fastrtps_c
 teleop_interfaces__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
@@ -206,7 +206,7 @@ teleop_interfaces__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
 libteleop_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/make_path__type_support_c.cpp.o
 libteleop_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/save_path__type_support_c.cpp.o
 libteleop_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/clear_path__type_support_c.cpp.o
-libteleop_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__type_support_c.cpp.o
+libteleop_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__type_support_c.cpp.o
 libteleop_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make
 libteleop_interfaces__rosidl_typesupport_fastrtps_c.so: libteleop_interfaces__rosidl_generator_c.so
 libteleop_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
@@ -233,10 +233,10 @@ CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/clean:
 
 CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/clear_path__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/clear_path__type_support_c.cpp
-CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__rosidl_typesupport_fastrtps_c.h
-CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/give_position__type_support_c.cpp
 CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/make_path__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/make_path__type_support_c.cpp
+CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/notify__type_support_c.cpp
 CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/save_path__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/teleop_interfaces/srv/detail/save_path__type_support_c.cpp
 	cd /home/talae-ubantu/6558_6576/build/teleop_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/talae-ubantu/6558_6576/src/teleop_interfaces /home/talae-ubantu/6558_6576/src/teleop_interfaces /home/talae-ubantu/6558_6576/build/teleop_interfaces /home/talae-ubantu/6558_6576/build/teleop_interfaces /home/talae-ubantu/6558_6576/build/teleop_interfaces/CMakeFiles/teleop_interfaces__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=$(COLOR)

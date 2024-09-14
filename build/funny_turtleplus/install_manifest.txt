@@ -12,6 +12,7 @@
 /home/talae-ubantu/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/controller.py
 /home/talae-ubantu/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/copy_schedule.py
 /home/talae-ubantu/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/cpp_node_test
+/home/talae-ubantu/6558_6576/install/funny_turtleplus/share/funny_turtleplus/launch/teleop_turtle.launch.py
 /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/ament_index/resource_index/package_run_dependencies/funny_turtleplus
 /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/ament_index/resource_index/parent_prefix_path/funny_turtleplus
 /home/talae-ubantu/6558_6576/install/funny_turtleplus/share/funny_turtleplus/environment/ament_prefix_path.sh

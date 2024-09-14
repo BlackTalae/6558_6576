@@ -6,7 +6,7 @@
     "/home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_adapter/teleop_interfaces:srv/MakePath.idl",
     "/home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_adapter/teleop_interfaces:srv/SavePath.idl",
     "/home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_adapter/teleop_interfaces:srv/ClearPath.idl",
-    "/home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_adapter/teleop_interfaces:srv/GivePosition.idl"
+    "/home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_adapter/teleop_interfaces:srv/Notify.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -59,7 +59,7 @@
     "/home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_adapter/teleop_interfaces/srv/MakePath.idl",
     "/home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_adapter/teleop_interfaces/srv/SavePath.idl",
     "/home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_adapter/teleop_interfaces/srv/ClearPath.idl",
-    "/home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_adapter/teleop_interfaces/srv/GivePosition.idl",
+    "/home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_adapter/teleop_interfaces/srv/Notify.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

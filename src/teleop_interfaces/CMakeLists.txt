@@ -30,7 +30,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/MakePath.srv"
   "srv/SavePath.srv"
   "srv/ClearPath.srv"
-  "srv/GivePosition.srv"
+  "srv/Notify.srv"
   DEPENDENCIES std_msgs
  )
 

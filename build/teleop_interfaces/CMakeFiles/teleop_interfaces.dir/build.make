@@ -75,9 +75,9 @@ CMakeFiles/teleop_interfaces: rosidl_cmake/srv/SavePath_Response.msg
 CMakeFiles/teleop_interfaces: /home/talae-ubantu/6558_6576/src/teleop_interfaces/srv/ClearPath.srv
 CMakeFiles/teleop_interfaces: rosidl_cmake/srv/ClearPath_Request.msg
 CMakeFiles/teleop_interfaces: rosidl_cmake/srv/ClearPath_Response.msg
-CMakeFiles/teleop_interfaces: /home/talae-ubantu/6558_6576/src/teleop_interfaces/srv/GivePosition.srv
-CMakeFiles/teleop_interfaces: rosidl_cmake/srv/GivePosition_Request.msg
-CMakeFiles/teleop_interfaces: rosidl_cmake/srv/GivePosition_Response.msg
+CMakeFiles/teleop_interfaces: /home/talae-ubantu/6558_6576/src/teleop_interfaces/srv/Notify.srv
+CMakeFiles/teleop_interfaces: rosidl_cmake/srv/Notify_Request.msg
+CMakeFiles/teleop_interfaces: rosidl_cmake/srv/Notify_Response.msg
 CMakeFiles/teleop_interfaces: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 CMakeFiles/teleop_interfaces: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 CMakeFiles/teleop_interfaces: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl

@@ -111,26 +111,26 @@ CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_clear_path_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_generator_py/teleop_interfaces/srv/_clear_path_s.c -o CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_clear_path_s.c.s
 
-CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c.o: CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/flags.make
-CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c.o: rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c
-CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c.o: CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/talae-ubantu/6558_6576/build/teleop_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c.o -MF CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c.o.d -o CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c.o -c /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c
+CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_notify_s.c.o: CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/flags.make
+CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_notify_s.c.o: rosidl_generator_py/teleop_interfaces/srv/_notify_s.c
+CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_notify_s.c.o: CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/talae-ubantu/6558_6576/build/teleop_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_notify_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_notify_s.c.o -MF CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_notify_s.c.o.d -o CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_notify_s.c.o -c /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_generator_py/teleop_interfaces/srv/_notify_s.c
 
-CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c > CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c.i
+CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_notify_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_notify_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_generator_py/teleop_interfaces/srv/_notify_s.c > CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_notify_s.c.i
 
-CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c -o CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c.s
+CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_notify_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_notify_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_generator_py/teleop_interfaces/srv/_notify_s.c -o CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_notify_s.c.s
 
 # Object files for target teleop_interfaces__rosidl_generator_py
 teleop_interfaces__rosidl_generator_py_OBJECTS = \
 "CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_make_path_s.c.o" \
 "CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_save_path_s.c.o" \
 "CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_clear_path_s.c.o" \
-"CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c.o"
+"CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_notify_s.c.o"
 
 # External object files for target teleop_interfaces__rosidl_generator_py
 teleop_interfaces__rosidl_generator_py_EXTERNAL_OBJECTS =
@@ -138,7 +138,7 @@ teleop_interfaces__rosidl_generator_py_EXTERNAL_OBJECTS =
 rosidl_generator_py/teleop_interfaces/libteleop_interfaces__rosidl_generator_py.so: CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_make_path_s.c.o
 rosidl_generator_py/teleop_interfaces/libteleop_interfaces__rosidl_generator_py.so: CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_save_path_s.c.o
 rosidl_generator_py/teleop_interfaces/libteleop_interfaces__rosidl_generator_py.so: CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_clear_path_s.c.o
-rosidl_generator_py/teleop_interfaces/libteleop_interfaces__rosidl_generator_py.so: CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c.o
+rosidl_generator_py/teleop_interfaces/libteleop_interfaces__rosidl_generator_py.so: CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_notify_s.c.o
 rosidl_generator_py/teleop_interfaces/libteleop_interfaces__rosidl_generator_py.so: CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/build.make
 rosidl_generator_py/teleop_interfaces/libteleop_interfaces__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 rosidl_generator_py/teleop_interfaces/libteleop_interfaces__rosidl_generator_py.so: libteleop_interfaces__rosidl_typesupport_c.so

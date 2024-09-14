@@ -85,7 +85,7 @@ rosidl_generator_c/teleop_interfaces/srv/make_path.h: /opt/ros/humble/share/rosi
 rosidl_generator_c/teleop_interfaces/srv/make_path.h: rosidl_adapter/teleop_interfaces/srv/MakePath.idl
 rosidl_generator_c/teleop_interfaces/srv/make_path.h: rosidl_adapter/teleop_interfaces/srv/SavePath.idl
 rosidl_generator_c/teleop_interfaces/srv/make_path.h: rosidl_adapter/teleop_interfaces/srv/ClearPath.idl
-rosidl_generator_c/teleop_interfaces/srv/make_path.h: rosidl_adapter/teleop_interfaces/srv/GivePosition.idl
+rosidl_generator_c/teleop_interfaces/srv/make_path.h: rosidl_adapter/teleop_interfaces/srv/Notify.idl
 rosidl_generator_c/teleop_interfaces/srv/make_path.h: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_c/teleop_interfaces/srv/make_path.h: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_c/teleop_interfaces/srv/make_path.h: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -154,17 +154,17 @@ rosidl_generator_c/teleop_interfaces/srv/detail/clear_path__struct.h: rosidl_gen
 rosidl_generator_c/teleop_interfaces/srv/detail/clear_path__type_support.h: rosidl_generator_c/teleop_interfaces/srv/make_path.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/teleop_interfaces/srv/detail/clear_path__type_support.h
 
-rosidl_generator_c/teleop_interfaces/srv/give_position.h: rosidl_generator_c/teleop_interfaces/srv/make_path.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/teleop_interfaces/srv/give_position.h
+rosidl_generator_c/teleop_interfaces/srv/notify.h: rosidl_generator_c/teleop_interfaces/srv/make_path.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/teleop_interfaces/srv/notify.h
 
-rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.h: rosidl_generator_c/teleop_interfaces/srv/make_path.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.h
+rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.h: rosidl_generator_c/teleop_interfaces/srv/make_path.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.h
 
-rosidl_generator_c/teleop_interfaces/srv/detail/give_position__struct.h: rosidl_generator_c/teleop_interfaces/srv/make_path.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/teleop_interfaces/srv/detail/give_position__struct.h
+rosidl_generator_c/teleop_interfaces/srv/detail/notify__struct.h: rosidl_generator_c/teleop_interfaces/srv/make_path.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/teleop_interfaces/srv/detail/notify__struct.h
 
-rosidl_generator_c/teleop_interfaces/srv/detail/give_position__type_support.h: rosidl_generator_c/teleop_interfaces/srv/make_path.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/teleop_interfaces/srv/detail/give_position__type_support.h
+rosidl_generator_c/teleop_interfaces/srv/detail/notify__type_support.h: rosidl_generator_c/teleop_interfaces/srv/make_path.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/teleop_interfaces/srv/detail/notify__type_support.h
 
 rosidl_generator_c/teleop_interfaces/srv/detail/make_path__functions.c: rosidl_generator_c/teleop_interfaces/srv/make_path.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/teleop_interfaces/srv/detail/make_path__functions.c
@@ -175,8 +175,8 @@ rosidl_generator_c/teleop_interfaces/srv/detail/save_path__functions.c: rosidl_g
 rosidl_generator_c/teleop_interfaces/srv/detail/clear_path__functions.c: rosidl_generator_c/teleop_interfaces/srv/make_path.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/teleop_interfaces/srv/detail/clear_path__functions.c
 
-rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.c: rosidl_generator_c/teleop_interfaces/srv/make_path.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.c
+rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.c: rosidl_generator_c/teleop_interfaces/srv/make_path.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.c
 
 CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/make_path__functions.c.o: CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/make_path__functions.c.o: rosidl_generator_c/teleop_interfaces/srv/detail/make_path__functions.c
@@ -220,26 +220,26 @@ CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_i
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/clear_path__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_generator_c/teleop_interfaces/srv/detail/clear_path__functions.c -o CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/clear_path__functions.c.s
 
-CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.c.o: CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/flags.make
-CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.c.o: rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.c
-CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.c.o: CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/talae-ubantu/6558_6576/build/teleop_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.c.o -MF CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.c.o.d -o CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.c.o -c /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.c
+CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.c.o: CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.c.o: rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.c
+CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.c.o: CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/talae-ubantu/6558_6576/build/teleop_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.c.o -MF CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.c.o.d -o CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.c.o -c /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.c
 
-CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.c > CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.c.i
+CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.c > CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.c.i
 
-CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.c -o CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.c.s
+CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/talae-ubantu/6558_6576/build/teleop_interfaces/rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.c -o CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.c.s
 
 # Object files for target teleop_interfaces__rosidl_generator_c
 teleop_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/make_path__functions.c.o" \
 "CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/save_path__functions.c.o" \
 "CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/clear_path__functions.c.o" \
-"CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.c.o"
+"CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.c.o"
 
 # External object files for target teleop_interfaces__rosidl_generator_c
 teleop_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -247,7 +247,7 @@ teleop_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 libteleop_interfaces__rosidl_generator_c.so: CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/make_path__functions.c.o
 libteleop_interfaces__rosidl_generator_c.so: CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/save_path__functions.c.o
 libteleop_interfaces__rosidl_generator_c.so: CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/clear_path__functions.c.o
-libteleop_interfaces__rosidl_generator_c.so: CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.c.o
+libteleop_interfaces__rosidl_generator_c.so: CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.c.o
 libteleop_interfaces__rosidl_generator_c.so: CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/build.make
 libteleop_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 libteleop_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
@@ -270,20 +270,20 @@ CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/
 CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/teleop_interfaces/srv/detail/clear_path__functions.h
 CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/teleop_interfaces/srv/detail/clear_path__struct.h
 CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/teleop_interfaces/srv/detail/clear_path__type_support.h
-CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.c
-CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/teleop_interfaces/srv/detail/give_position__functions.h
-CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/teleop_interfaces/srv/detail/give_position__struct.h
-CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/teleop_interfaces/srv/detail/give_position__type_support.h
 CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/teleop_interfaces/srv/detail/make_path__functions.c
 CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/teleop_interfaces/srv/detail/make_path__functions.h
 CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/teleop_interfaces/srv/detail/make_path__struct.h
 CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/teleop_interfaces/srv/detail/make_path__type_support.h
+CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.c
+CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/teleop_interfaces/srv/detail/notify__functions.h
+CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/teleop_interfaces/srv/detail/notify__struct.h
+CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/teleop_interfaces/srv/detail/notify__type_support.h
 CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/teleop_interfaces/srv/detail/save_path__functions.c
 CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/teleop_interfaces/srv/detail/save_path__functions.h
 CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/teleop_interfaces/srv/detail/save_path__struct.h
 CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/teleop_interfaces/srv/detail/save_path__type_support.h
-CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/teleop_interfaces/srv/give_position.h
 CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/teleop_interfaces/srv/make_path.h
+CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/teleop_interfaces/srv/notify.h
 CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/teleop_interfaces/srv/save_path.h
 	cd /home/talae-ubantu/6558_6576/build/teleop_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/talae-ubantu/6558_6576/src/teleop_interfaces /home/talae-ubantu/6558_6576/src/teleop_interfaces /home/talae-ubantu/6558_6576/build/teleop_interfaces /home/talae-ubantu/6558_6576/build/teleop_interfaces /home/talae-ubantu/6558_6576/build/teleop_interfaces/CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/teleop_interfaces__rosidl_generator_c.dir/depend

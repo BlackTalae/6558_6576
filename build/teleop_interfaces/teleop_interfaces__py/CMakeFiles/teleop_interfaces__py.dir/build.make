@@ -72,12 +72,12 @@ teleop_interfaces__py/CMakeFiles/teleop_interfaces__py: rosidl_generator_py/tele
 teleop_interfaces__py/CMakeFiles/teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/srv/_make_path.py
 teleop_interfaces__py/CMakeFiles/teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/srv/_save_path.py
 teleop_interfaces__py/CMakeFiles/teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/srv/_clear_path.py
-teleop_interfaces__py/CMakeFiles/teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/srv/_give_position.py
+teleop_interfaces__py/CMakeFiles/teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/srv/_notify.py
 teleop_interfaces__py/CMakeFiles/teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/srv/__init__.py
 teleop_interfaces__py/CMakeFiles/teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/srv/_make_path_s.c
 teleop_interfaces__py/CMakeFiles/teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/srv/_save_path_s.c
 teleop_interfaces__py/CMakeFiles/teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/srv/_clear_path_s.c
-teleop_interfaces__py/CMakeFiles/teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c
+teleop_interfaces__py/CMakeFiles/teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/srv/_notify_s.c
 
 rosidl_generator_py/teleop_interfaces/_teleop_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/teleop_interfaces/_teleop_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -95,7 +95,7 @@ rosidl_generator_py/teleop_interfaces/_teleop_interfaces_s.ep.rosidl_typesupport
 rosidl_generator_py/teleop_interfaces/_teleop_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/teleop_interfaces/srv/MakePath.idl
 rosidl_generator_py/teleop_interfaces/_teleop_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/teleop_interfaces/srv/SavePath.idl
 rosidl_generator_py/teleop_interfaces/_teleop_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/teleop_interfaces/srv/ClearPath.idl
-rosidl_generator_py/teleop_interfaces/_teleop_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/teleop_interfaces/srv/GivePosition.idl
+rosidl_generator_py/teleop_interfaces/_teleop_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/teleop_interfaces/srv/Notify.idl
 rosidl_generator_py/teleop_interfaces/_teleop_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_py/teleop_interfaces/_teleop_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_py/teleop_interfaces/_teleop_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -146,8 +146,8 @@ rosidl_generator_py/teleop_interfaces/srv/_save_path.py: rosidl_generator_py/tel
 rosidl_generator_py/teleop_interfaces/srv/_clear_path.py: rosidl_generator_py/teleop_interfaces/_teleop_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/teleop_interfaces/srv/_clear_path.py
 
-rosidl_generator_py/teleop_interfaces/srv/_give_position.py: rosidl_generator_py/teleop_interfaces/_teleop_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/teleop_interfaces/srv/_give_position.py
+rosidl_generator_py/teleop_interfaces/srv/_notify.py: rosidl_generator_py/teleop_interfaces/_teleop_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/teleop_interfaces/srv/_notify.py
 
 rosidl_generator_py/teleop_interfaces/srv/__init__.py: rosidl_generator_py/teleop_interfaces/_teleop_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/teleop_interfaces/srv/__init__.py
@@ -161,8 +161,8 @@ rosidl_generator_py/teleop_interfaces/srv/_save_path_s.c: rosidl_generator_py/te
 rosidl_generator_py/teleop_interfaces/srv/_clear_path_s.c: rosidl_generator_py/teleop_interfaces/_teleop_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/teleop_interfaces/srv/_clear_path_s.c
 
-rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c: rosidl_generator_py/teleop_interfaces/_teleop_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c
+rosidl_generator_py/teleop_interfaces/srv/_notify_s.c: rosidl_generator_py/teleop_interfaces/_teleop_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/teleop_interfaces/srv/_notify_s.c
 
 teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/_teleop_interfaces_s.ep.rosidl_typesupport_c.c
 teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/_teleop_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
@@ -170,10 +170,10 @@ teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/_teleop_interfaces_
 teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/srv/__init__.py
 teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/srv/_clear_path.py
 teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/srv/_clear_path_s.c
-teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/srv/_give_position.py
-teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c
 teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/srv/_make_path.py
 teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/srv/_make_path_s.c
+teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/srv/_notify.py
+teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/srv/_notify_s.c
 teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/srv/_save_path.py
 teleop_interfaces__py: rosidl_generator_py/teleop_interfaces/srv/_save_path_s.c
 teleop_interfaces__py: teleop_interfaces__py/CMakeFiles/teleop_interfaces__py

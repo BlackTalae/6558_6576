@@ -1,4 +1,0 @@
-Invoking command in '/home/talae-ubantu/6558_6576/build/turtlesim_plus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/talae-ubantu/6558_6576/build/turtlesim_plus_interfaces -- -j4 -l4
-Invoked command in '/home/talae-ubantu/6558_6576/build/turtlesim_plus_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/talae-ubantu/6558_6576/build/turtlesim_plus_interfaces -- -j4 -l4
-Invoking command in '/home/talae-ubantu/6558_6576/build/turtlesim_plus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/talae-ubantu/6558_6576/build/turtlesim_plus_interfaces
-Invoked command in '/home/talae-ubantu/6558_6576/build/turtlesim_plus_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/talae-ubantu/6558_6576/build/turtlesim_plus_interfaces

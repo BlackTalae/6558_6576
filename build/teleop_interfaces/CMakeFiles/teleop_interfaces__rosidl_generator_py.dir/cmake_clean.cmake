@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_clear_path_s.c.o"
   "CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_clear_path_s.c.o.d"
-  "CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c.o"
-  "CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_give_position_s.c.o.d"
   "CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_make_path_s.c.o"
   "CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_make_path_s.c.o.d"
+  "CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_notify_s.c.o"
+  "CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_notify_s.c.o.d"
   "CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_save_path_s.c.o"
   "CMakeFiles/teleop_interfaces__rosidl_generator_py.dir/rosidl_generator_py/teleop_interfaces/srv/_save_path_s.c.o.d"
   "rosidl_generator_py/teleop_interfaces/libteleop_interfaces__rosidl_generator_py.pdb"

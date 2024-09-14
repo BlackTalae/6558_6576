@@ -11,6 +11,7 @@ import numpy as np
 import math
 from geometry_msgs.msg import Twist
 import yaml
+from rcl_interfaces.msg import SetParametersResult
 
 class TeleopScheduleNode(Node):
     def __init__(self):
@@ -21,10 +22,15 @@ class TeleopScheduleNode(Node):
         self.clear_service = self.create_service(ClearPath, '/clear_path', self.clear_service_callback)
 
         self.spawn_pizza_client = self.create_client(GivePosition, '/spawn_pizza')
-        self.eat_pizza_client = self.create_client(Empty, '/turtle1/eat')
+        self.declare_parameter('pizza_number', 5)
+        self.pizza = self.get_parameter('pizza_number').value
+        self.add_on_set_parameters_callback(self.parameter_update_callback)
+        self.eat_pizza_client = self.create_client(Empty, 'eat')
+        self.done_client = self.create_client(MakePath, '/done')
+        self.get_logger().info(f'You have {self.pizza} Pizza')
 
-        self.create_subscription(Pose, '/turtle1/pose', self.pose_callback, 10)
-        self.cmd_vel_pub = self.create_publisher(Twist, '/turtle1/cmd_vel', 10)
+        self.create_subscription(Pose, 'pose', self.pose_callback, 10)
+        self.cmd_vel_pub = self.create_publisher(Twist, 'cmd_vel', 10)
 
         self.robot_pose = np.array([0.0, 0.0, 0.0]) 
 
@@ -33,9 +39,15 @@ class TeleopScheduleNode(Node):
 
         self.trig = 1
         self.count = 0
+        self.count_pizza = 0
 
         self.timer_turtle = self.create_timer(1.0/100.0, self.turtle_run)
  
+    def spawn_pizza(self, x, y):
+        position_req = GivePosition.Request()
+        position_req.x = x
+        position_req.y = y
+        self.spawn_pizza_client.call_async(position_req)
 
     def make_service_callback(self, request:MakePath.Request, response:MakePath.Response):
         print("Press i button")
@@ -47,15 +59,28 @@ class TeleopScheduleNode(Node):
         self.path_x.append(float(position_request.x))
         self.path_y.append(float(position_request.y))
 
-        print(f"x : {self.path_x} / y : {self.path_y}")
+        self.get_logger().info(f"x : {self.path_x} / y : {self.path_y}")
 
-        self.spawn_pizza_client.call_async(position_request) # call when click on GUI
+        # self.spawn_pizza_client.call_async(position_request) # call when click on GUI
+        if self.count_pizza < self.pizza:
+            self.spawn_pizza(self.robot_pose[0], self.robot_pose[1])
+            self.count_pizza += 1
+            self.get_logger().info(f'Pizza: {self.count_pizza} / {int(self.pizza)}')
+        else:
+            self.get_logger().info('No more pizza!')
         return response
-
+    
     def pose_callback(self, msg):
         self.robot_pose[0] = msg.x
         self.robot_pose[1] = msg.y
         self.robot_pose[2] = msg.theta
+    
+    def parameter_update_callback(self, params):
+        for param in params:
+            if param.name == 'pizza_number':
+                self.pizza = param.value
+                self.get_logger().info('Number of pizza have change to',self.pizza)
+        return SetParametersResult(successful=True) 
 
     def eat_pizza(self):
         eat_request = Empty.Request()
@@ -76,15 +101,16 @@ class TeleopScheduleNode(Node):
             self.cmdvel(vx, wz) # use function cmdvel
             if (d < 0.8):
                 self.eat_pizza()
+                self.count_pizza -= 1
+                self.get_logger().info(f'Pizza: {self.count_pizza} / {int(self.pizza)}')
                 self.path_x.pop(0)
                 self.path_y.pop(0)
         else:
             self.trig = 1
 
     def save_service_callback(self, request:SavePath.Request, response:SavePath.Response):
-        response.count += 1
-        self.count += 1
 
+        
         # Path to the YAML file
         yaml_file_path = '/home/talae-ubantu/6558_6576/src/funny_turtleplus/config/funny_yaml.yaml'
         
@@ -95,7 +121,11 @@ class TeleopScheduleNode(Node):
         # Modify the parameter in the YAML structure
         if 'copy_schedule_node' in params and 'ros__parameters' in params['copy_schedule_node']:
             # self.get_logger().info(f"Current motor_target: {params['copy_schedule_node']['ros__parameters']['motor_target']}")
+            response.count += 1
+            self.count += 1
             print(f"x: {self.path_x} / y: {self.path_y}")
+
+            self.get_logger().info(f"{self.count}")
             # Update the motor_target parameter
             params['copy_schedule_node']['ros__parameters'][f'turtle{self.count}_target_x'] = self.path_x # new value
             params['copy_schedule_node']['ros__parameters'][f'turtle{self.count}_target_y'] = self.path_y # new value
@@ -110,6 +140,11 @@ class TeleopScheduleNode(Node):
 
         self.path_x = []
         self.path_y = []
+
+        if self.count >= 4:
+            make_request = MakePath.Request()
+            self.done_client.call_async(make_request)
+            
         return response
 
     def clear_service_callback(self, request:ClearPath.Request, response:ClearPath.Response):
@@ -126,6 +161,8 @@ class TeleopScheduleNode(Node):
         msg.linear.x = v 
         msg.angular.z = w 
         self.cmd_vel_pub.publish(msg) # publish topic
+
+    
 
 def main(args=None):
     rclpy.init(args=args)

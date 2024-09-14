@@ -5,11 +5,17 @@ import rclpy
 from rclpy.node import Node
 import yaml
 import os
-from turtlesim_plus_interfaces.srv import GivePosition
+from teleop_interfaces.srv import MakePath
+from teleop_interfaces.srv import Notify
+from turtlesim.msg import Pose
 
 class CopyScheduleNode(Node):
     def __init__(self):
         super().__init__('copy_schedule_node')
+
+        self.done_service = self.create_service(MakePath, '/done', self.done_service_callback)
+        self.target_done_service = self.create_service(Notify, '/target_done', self.target_done_service_callback)
+        self.target_position = self.create_publisher(Pose, "target", 10)
 
         # Load YAML file
         self.yaml_file_path = '/home/talae-ubantu/6558_6576/src/funny_turtleplus/config/funny_yaml.yaml'
@@ -29,13 +35,16 @@ class CopyScheduleNode(Node):
             ]
         )
 
-        self.position_pub = self.create_publisher(GivePosition, 'target', 10)
+        # self.position_pub = self.create_publisher(GivePosition, 'target', 10)
 
         # Load the parameters initially from the YAML file
         self.load_parameters_from_yaml()  
 
         self.rate = 100.0
         self.timer = self.create_timer(1/self.rate, self.timer_callback)
+
+        self.state = False
+        self.i = 0
 
     def load_parameters_from_yaml(self):
         """ Load parameters from YAML file and update node parameters. """
@@ -77,15 +86,31 @@ class CopyScheduleNode(Node):
             self.get_logger().error(f"YAML file not found: {self.yaml_file_path}")
 
     def timer_callback(self):
+        # self.get_logger().info("I still here!!")
         self.load_parameters_from_yaml()
         self.turtle1_target_x = self.get_parameter('turtle1_target_x').value
         self.turtle1_target_y = self.get_parameter('turtle1_target_y').value
-        self.get_logger().info(f'Turtle1 target: {self.turtle1_target_x} {self.turtle1_target_y}')
+        # self.get_logger().info(f'Turtle1 target: {self.turtle1_target_x} {self.turtle1_target_y}')
+        # print(self.state)
 
-        msg = GivePosition() # create topic message
-        msg.x = self.turtle1_target_x[0]
-        msg.y = self.turtle1_target_y[0]
-        self.position_pub.publish(msg) # publish topic
+        if self.state == True:
+
+            msg = Pose()
+            msg.x = self.turtle1_target_x[self.i]
+            msg.y = self.turtle1_target_y[self.i]
+            self.get_logger().info(f'Send target: {msg.x} {msg.y}')
+
+            self.target_position.publish(msg)
+
+            self.i = self.i + 1
+
+    def done_service_callback(self, request:MakePath.Request, response:MakePath.Response):
+        print("Done!!!!")
+        return response
+    
+    def target_done_service_callback(self, request:Notify.Request, response:Notify.Response):
+        self.state = request.trig         
+        return response
 
         
 
