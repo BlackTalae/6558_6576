@@ -1,0 +1,59 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/charlottexiii/6558_6576/build/funny_turtleplus
+[35m[1mConsolidate compiler generated dependencies of target cpp_node_test[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_node_test.dir/src/cpp_node.cpp.o[0m
+[ 50%] Built target ament_cmake_python_copy_funny_turtleplus
+[100%] [32m[1mLinking CXX executable cpp_node_test[0m
+running egg_info
+writing funny_turtleplus.egg-info/PKG-INFO
+writing dependency_links to funny_turtleplus.egg-info/dependency_links.txt
+writing top-level names to funny_turtleplus.egg-info/top_level.txt
+reading manifest file 'funny_turtleplus.egg-info/SOURCES.txt'
+writing manifest file 'funny_turtleplus.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_funny_turtleplus_egg
+[100%] Built target cpp_node_test
+-- Install configuration: ""
+-- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/environment/pythonpath.sh
+-- Installing: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/environment/pythonpath.dsv
+-- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus-0.0.0-py3.10.egg-info
+-- Installing: /home/charlottexiii/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/charlottexiii/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/charlottexiii/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/charlottexiii/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus
+-- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus/dummy_module.py
+-- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus/__init__.py
+Listing '/home/charlottexiii/6558_6576/install/funny_turtleplus/local/lib/python3.10/dist-packages/funny_turtleplus'...
+-- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/dummy_script.py
+-- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/Test_Key_Tele.py
+-- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/First_Trutle.py
+-- Installing: /home/charlottexiii/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/cpp_node_test
+-- Set runtime path of "/home/charlottexiii/6558_6576/install/funny_turtleplus/lib/funny_turtleplus/cpp_node_test" to ""
+-- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus
+-- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/ament_index/resource_index/package_run_dependencies/funny_turtleplus
+-- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/ament_index/resource_index/parent_prefix_path/funny_turtleplus
+-- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/environment/ament_prefix_path.sh
+-- Installing: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/environment/path.sh
+-- Installing: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/environment/path.dsv
+-- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/local_setup.bash
+-- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/local_setup.sh
+-- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/local_setup.zsh
+-- Installing: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/local_setup.dsv
+-- Installing: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/package.dsv
+-- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/ament_index/resource_index/packages/funny_turtleplus
+-- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/cmake/funny_turtleplusConfig.cmake
+-- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/cmake/funny_turtleplusConfig-version.cmake
+-- Up-to-date: /home/charlottexiii/6558_6576/install/funny_turtleplus/share/funny_turtleplus/package.xml

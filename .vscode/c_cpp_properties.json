@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/charlottexiii/6558_6576/install/teleop_interfaces/include/**",
+        "/home/charlottexiii/robdev_ws/install/turtlesim_plus_interfaces/include/**",
+        "/home/charlottexiii/robdev_ws/install/lab1_interfaces/include/**",
+        "/home/charlottexiii/robdev_ws/install/examples_rclcpp_cbg_executor/include/**",
+        "/home/charlottexiii/robdev_ws/install/controller_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/charlottexiii/6558_6576/src/funny_turtleplus/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

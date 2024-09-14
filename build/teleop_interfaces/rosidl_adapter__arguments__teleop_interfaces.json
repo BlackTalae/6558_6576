@@ -1,0 +1,8 @@
+{
+  "package_name": "teleop_interfaces",
+  "non_idl_tuples": [
+    "/home/charlottexiii/6558_6576/src/teleop_interfaces:srv/MakePath.srv",
+    "/home/charlottexiii/6558_6576/src/teleop_interfaces:srv/SavePath.srv",
+    "/home/charlottexiii/6558_6576/src/teleop_interfaces:srv/ClearPath.srv"
+  ]
+}
