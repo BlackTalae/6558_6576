@@ -42,7 +42,7 @@ You can use these key to move your turtle on the screen
 
 you have to draw 4 letters on the screen example 'FIBO' like this video by pressing I on keyboard to spawn pizza and after you finish draw 1 letter you must press O to save but if you accidentally draw the alphabet wrong and you want to delete it you must press "p" to clear
 
-https://github.com/user-attachments/assets/b1bf8f2e-1377-40cc-864d-e3ac1f096549
+https://drive.google.com/file/d/1vehpAPPtSzhnjpGgHATGia60__EZXMfw/view?usp=sharing 
 
 After you press O to save path and the value X,Y of pizza will be store in yaml files then the value will be use again on next part
 
@@ -67,13 +67,13 @@ ros2 run funny_turtleplus controller.py
 ```
 ros2 run funny_turtleplus copy_schedule.py
 ```
-https://github.com/user-attachments/assets/98e9d1ff-d6db-4047-a6c8-fb5d77188e7e
+https://drive.google.com/file/d/16zgvzyjfGhV-KB3V8m15TWsUJ92Ke4O4/view?usp=sharing
 
 
 
 ## Demo Videos
 
-This video show you how to create the word "FIBO" and automaticall draw by 4 turtles
+This video show you how to create the word "FIBO" and automatical draw by 4 turtles
 
 https://drive.google.com/file/d/1VtRiXDrN1Y6LHg5NNzPWgIMtZZZDqntV/view?usp=sharing
 
