@@ -1,12 +1,8 @@
 # **PROJECT FUNNY TURTLE + :turtle: :pizza: :pizza:** 
 ##### Project about using knowladge of ROS2 (Topics, Service, Parameter, Namespace and Launch File) to control turtles from turtlesim_plus or use in Framework and appropriately understand the architecture map of ROS2
 # **Table of Content**
-- Architecture Map
 - How to Use the Project
 - Demo
-
-## Architecture Map
-Provide a detailed description and a diagram of your ROS2 architecture, explaining the nodes, topics, services, and how they interact.
 
 ## How to Use the Project
 In this project we have divided it into 2 main part: 
