@@ -46,10 +46,37 @@ https://github.com/user-attachments/assets/b1bf8f2e-1377-40cc-864d-e3ac1f096549
 
 After you press O to save path and the value X,Y of pizza will be store in yaml files then the value will be use again on next part
 
+
+In the second part (Copy_turtle part) after yaml files get the value, the value will be use to set target of turtles to automatically draw the pizza path or the alphabets like in this video
+
+Firstly, you have to run following commands down below
+
+  1. This command runs a turtlesim_plus node from the turtlesim_plus package. This node controls turtlesim_plus simulation and has 1 turtle at the center of the screen
+```
+ros2 run turtlesim_plus turtlesim_plus_node.py
+```
+  2. This command runs to create other 3 turtles at the same time
+```
+ros2 launch funny_turtleplus copy_turtle.launch.py
+```
+  3. This command runs to make all turtles move to start point at (1.0, 1.0) 
+```
+ros2 run funny_turtleplus controller.py
+```
+  4. This command runs to make all turtles recieve target x,y from yaml file and start to saperate to automatically draw alphabets like the original
+```
+ros2 run funny_turtleplus copy_schedule.py
+```
+https://github.com/user-attachments/assets/98e9d1ff-d6db-4047-a6c8-fb5d77188e7e
+
+
+
 ## Demo Videos
 
-This video show you when you create alphabet with service spawn pizza
+This video show you how to create the word "FIBO" and automaticall draw by 4 turtles
+
+
 
 # CREDIT 
-This Project create by 
+This Project create by Mr.Anuwit intet 65340500058 and Mr.Sippanon sornkunkaew 65340500076
 
